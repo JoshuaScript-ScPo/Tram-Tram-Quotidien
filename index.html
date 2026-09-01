@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tram Tram Quotidien</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <h1>TRAM TRAM QUOTIDIEN</h1>
+
+    <p id="question">
+        Name a station located in Kirchberg
+    </p>
+
+    <p id="answerCount"></p>
+
+   <div id="answerControls">
+    <input
+        type="text"
+        id="answer"
+        placeholder="Type your answer here..."
+    >
+    <div id="suggestions"></div>
+
+    <button id="checkAnswer">
+        Confirm
+    </button>
+</div>
+
+<button id="nextQuestion">
+    Next question
+</button>
+
+<p id="result"></p>
+
+
+<p id="score">
+    Score: 0
+</p>
+
+    <script src="stations.js"></script>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
